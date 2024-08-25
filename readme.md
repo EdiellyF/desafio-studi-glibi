@@ -20,7 +20,7 @@ O principal objetivo deste projeto é aprimorar habilidades de desenvolvimento f
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/projeto-completo-studio-ghibli.git
+   git clone https://github.com/ediellyf/projeto-completo-studio-ghibli.git
 
 
 ![Texto Alternativo](image.png)
