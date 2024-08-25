@@ -26,6 +26,7 @@ async function adicionarFilmes() {
         child.innerHTML = `
             <img src="${filme.image}" alt="${filme.title}" class="filme-imagem">
             <h3 class="filme-titulo">${filme.title}</h3>
+            <p>${filme.release_date}</p>
         `;
         console.log(child)
         container.appendChild(child);
