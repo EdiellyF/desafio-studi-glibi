@@ -5,8 +5,9 @@ async function chamarApi(){
      if(resp.status === 200){
         const obj = await resp.json();
     
-        const firstSevenIds = obj.slice(0, 30);
-        return firstSevenIds;
+        const first = obj.slice(0, 20);
+        console.log(first)
+        return first;
      }
     
 }
