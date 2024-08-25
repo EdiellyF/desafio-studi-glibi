@@ -237,3 +237,59 @@ main {
     }
 
 }
+
+header, main, #filmes {
+    width: 80%;
+    max-width: 1200px; /* Adicione um max-width para evitar que o layout fique muito largo em telas grandes */
+   margin-bottom:10%;
+}
+#filmes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+   
+}
+
+.filme-card {
+    background-color:  #f1a5b04c;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    font-family: 'Archivo', sans-serif ;
+    text-align: center;
+}
+
+.filme-card:hover {
+    transform: scale(1.05);
+}
+
+.filme-imagem {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.filme-titulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+  
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .filme-titulo {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filme-titulo {
+        font-size: 16px;
+    }
+
+}
+
